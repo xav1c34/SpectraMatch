@@ -102,7 +102,7 @@ Implemented using sparse Cholesky matrix decomposition (`scipy.sparse.linalg.sps
 
 ### 1. Clone & Set Up Environment
 ```bash
-git clone https://github.com/your-username/SpectraMatch.git
+git clone https://github.com/xav1c34/SpectraMatch.git
 cd SpectraMatch
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
@@ -210,7 +210,7 @@ SpectreMatch/
 
 ### LaTeX CV Entry
 ```latex
-\textbf{SpectraMatch} | \textit{Python, NumPy, SciPy, Streamlit, SQLite, Plotly} \hfill \href{https://github.com/your-repo/SpectraMatch}{[Code \& Demo]}
+\textbf{SpectraMatch} | \textit{Python, NumPy, SciPy, Streamlit, SQLite, Plotly} \hfill \href{https://github.com/xav1c34/SpectraMatch}{[Code \& Demo]}
 \begin{itemize}
     \item Designed an open-source multimodal spectral search and chemometric identification engine for complex natural organic matter (FTIR, EEM-fluorescence, and FT-ICR mass spectrometry).
     \item Developed a dual-stage vector retrieval pipeline with sub-millisecond in-memory matrix similarity querying (Tucker Congruence Coefficient, Pearson correlation, Cosine metric) across canonical interpolated spectral grids.
