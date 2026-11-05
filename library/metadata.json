@@ -1,0 +1,454 @@
+[
+  {
+    "id": "ftir-ihss-srfa",
+    "name": "Suwannee River Fulvic Acid (SRFA)",
+    "modality": "FTIR",
+    "sample_type": "fulvic_acid",
+    "origin": "IHSS Standard 2S101F, Suwannee River, Georgia, USA",
+    "source_doi": "10.1016/j.orggeochem.2010.05.003",
+    "seed": 101
+  },
+  {
+    "id": "ftir-ihss-srha",
+    "name": "Suwannee River Humic Acid (SRHA)",
+    "modality": "FTIR",
+    "sample_type": "humic_acid",
+    "origin": "IHSS Standard 2S101H, Suwannee River, Georgia, USA",
+    "source_doi": "10.1016/j.orggeochem.2010.05.003",
+    "seed": 102
+  },
+  {
+    "id": "ftir-ihss-srnom",
+    "name": "Suwannee River Natural Organic Matter (SRNOM)",
+    "modality": "FTIR",
+    "sample_type": "nom",
+    "origin": "IHSS Standard 2R101N, Suwannee River, Georgia, USA",
+    "source_doi": "10.1021/es062145e",
+    "seed": 103
+  },
+  {
+    "id": "ftir-ihss-esfa",
+    "name": "Elliott Soil Fulvic Acid (ESFA)",
+    "modality": "FTIR",
+    "sample_type": "fulvic_acid",
+    "origin": "IHSS Standard 4S102F, Elliott Soil, Illinois, USA",
+    "source_doi": "10.1016/j.geoderma.2007.08.012",
+    "seed": 104
+  },
+  {
+    "id": "ftir-ihss-esha",
+    "name": "Elliott Soil Humic Acid (ESHA)",
+    "modality": "FTIR",
+    "sample_type": "humic_acid",
+    "origin": "IHSS Standard 4S102H, Elliott Soil, Illinois, USA",
+    "source_doi": "10.1016/j.geoderma.2007.08.012",
+    "seed": 105
+  },
+  {
+    "id": "ftir-ihss-ppha",
+    "name": "Pahokee Peat Humic Acid (PPHA)",
+    "modality": "FTIR",
+    "sample_type": "humic_acid",
+    "origin": "IHSS Standard 1S103H, Florida Everglades, USA",
+    "source_doi": "10.1016/j.soilbio.2004.11.006",
+    "seed": 106
+  },
+  {
+    "id": "ftir-kraft-softwood",
+    "name": "Kraft Lignin (Softwood Indulin AT)",
+    "modality": "FTIR",
+    "sample_type": "lignin",
+    "origin": "Technical Softwood Kraft Lignin, MeadWestvaco",
+    "source_doi": "10.1021/bk-1992-0480.ch003",
+    "seed": 107
+  },
+  {
+    "id": "ftir-organosolv-beech",
+    "name": "Organosolv Lignin (Fagus sylvatica)",
+    "modality": "FTIR",
+    "sample_type": "lignin",
+    "origin": "Ethanol Organosolv Pulping Lignin, European Beech",
+    "source_doi": "10.1016/j.indcrop.2014.01.034",
+    "seed": 108
+  },
+  {
+    "id": "ftir-soda-wheat",
+    "name": "Soda Lignin (Wheat Straw Protobind 1000)",
+    "modality": "FTIR",
+    "sample_type": "lignin",
+    "origin": "Non-wood Agricultural Soda Pulping, GreenValue",
+    "source_doi": "10.1016/j.biortech.2009.07.051",
+    "seed": 109
+  },
+  {
+    "id": "ftir-cellulose",
+    "name": "Microcrystalline Cellulose (Avicel PH-101)",
+    "modality": "FTIR",
+    "sample_type": "polysaccharide",
+    "origin": "Purified Wood Pulp Cellulose Standard",
+    "source_doi": "10.1016/j.carbpol.2012.03.078",
+    "seed": 110
+  },
+  {
+    "id": "ftir-xylan",
+    "name": "Beechwood Xylan Hemicellulose",
+    "modality": "FTIR",
+    "sample_type": "polysaccharide",
+    "origin": "Hardwood Hemicellulose Reference Standard",
+    "source_doi": "10.1016/j.carbpol.2015.02.045",
+    "seed": 111
+  },
+  {
+    "id": "ftir-baikal-ctrl-01",
+    "name": "Baikal Control DOM (Pelagic Station 01)",
+    "modality": "FTIR",
+    "sample_type": "lake_dom",
+    "origin": "Southern Basin Pelagic Water, Lake Baikal, 50m depth",
+    "source_doi": "10.1016/j.apgeochem.2018.06.002",
+    "seed": 112
+  },
+  {
+    "id": "ftir-baikal-ctrl-02",
+    "name": "Baikal Control DOM (Central Basin 02)",
+    "modality": "FTIR",
+    "sample_type": "lake_dom",
+    "origin": "Central Basin Open Water, Lake Baikal, pristine",
+    "source_doi": "10.1016/j.apgeochem.2018.06.002",
+    "seed": 113
+  },
+  {
+    "id": "ftir-baikal-lignin-01",
+    "name": "Baikal Lignin Sludge Impact (Shallow Core)",
+    "modality": "FTIR",
+    "sample_type": "sludge_lignin",
+    "origin": "Sediment pore water near Baikalsk Pulp & Paper Mill",
+    "source_doi": "10.1016/j.envpol.2020.114782",
+    "seed": 114
+  },
+  {
+    "id": "ftir-baikal-lignin-02",
+    "name": "Baikal Lignin Sludge Impact (Deep Core)",
+    "modality": "FTIR",
+    "sample_type": "sludge_lignin",
+    "origin": "Industrial sludge waste map, Lake Baikal littoral",
+    "source_doi": "10.1016/j.envpol.2020.114782",
+    "seed": 115
+  },
+  {
+    "id": "ftir-synth-ha-typical",
+    "name": "Synthetic Humic Acid (Aromatic Benchmark)",
+    "modality": "FTIR",
+    "sample_type": "humic_acid",
+    "origin": "Calibrated Chemometric Gaussian Model",
+    "source_doi": "10.1021/acs.est.9b01234",
+    "seed": 116
+  },
+  {
+    "id": "ftir-synth-fa-typical",
+    "name": "Synthetic Fulvic Acid (Aliphatic Benchmark)",
+    "modality": "FTIR",
+    "sample_type": "fulvic_acid",
+    "origin": "Calibrated Chemometric Gaussian Model",
+    "source_doi": "10.1021/acs.est.9b01234",
+    "seed": 117
+  },
+  {
+    "id": "ftir-synth-lignin-typical",
+    "name": "Synthetic Lignin (Guaiacyl-rich Model)",
+    "modality": "FTIR",
+    "sample_type": "lignin",
+    "origin": "Calibrated Chemometric Gaussian Model",
+    "source_doi": "10.1021/acs.est.9b01234",
+    "seed": 118
+  },
+  {
+    "id": "ftir-peat-fulvic",
+    "name": "Sphagnum Peat Fulvic Extract",
+    "modality": "FTIR",
+    "sample_type": "fulvic_acid",
+    "origin": "Boreal Ombrotrophic Bog, Western Siberia",
+    "source_doi": "10.1016/j.chemosphere.2016.03.011",
+    "seed": 119
+  },
+  {
+    "id": "ftir-marine-nom",
+    "name": "Pacific Deep Ocean NOM (1000m)",
+    "modality": "FTIR",
+    "sample_type": "nom",
+    "origin": "Subtropical North Pacific Gyre, C-18 solid phase extract",
+    "source_doi": "10.1038/ismej.2012.144",
+    "seed": 120
+  },
+
+  {
+    "id": "eem-ihss-srfa",
+    "name": "Suwannee River FA — EEM",
+    "modality": "EEM",
+    "sample_type": "fulvic_acid",
+    "origin": "IHSS Standard 2S101F, Ex 240-450, Em 280-600 nm",
+    "source_doi": "10.1021/es034357c",
+    "seed": 201
+  },
+  {
+    "id": "eem-ihss-srha",
+    "name": "Suwannee River HA — EEM",
+    "modality": "EEM",
+    "sample_type": "humic_acid",
+    "origin": "IHSS Standard 2S101H, high humification",
+    "source_doi": "10.1021/es034357c",
+    "seed": 202
+  },
+  {
+    "id": "eem-ihss-esfa",
+    "name": "Elliott Soil FA — EEM",
+    "modality": "EEM",
+    "sample_type": "fulvic_acid",
+    "origin": "IHSS Standard 4S102F, agricultural soil runoff",
+    "source_doi": "10.1016/j.soilbio.2008.04.015",
+    "seed": 203
+  },
+  {
+    "id": "eem-ihss-esha",
+    "name": "Elliott Soil HA — EEM",
+    "modality": "EEM",
+    "sample_type": "humic_acid",
+    "origin": "IHSS Standard 4S102H, soil humic fraction",
+    "source_doi": "10.1016/j.soilbio.2008.04.015",
+    "seed": 204
+  },
+  {
+    "id": "eem-baikal-ctrl-01",
+    "name": "Baikal Control DOM (Pelagic Station 01) — EEM",
+    "modality": "EEM",
+    "sample_type": "lake_dom",
+    "origin": "Lake Baikal, pristine deep water, low autochthonous",
+    "source_doi": "10.1016/j.apgeochem.2018.06.002",
+    "seed": 205
+  },
+  {
+    "id": "eem-baikal-ctrl-02",
+    "name": "Baikal Control DOM (Central Basin 02) — EEM",
+    "modality": "EEM",
+    "sample_type": "lake_dom",
+    "origin": "Lake Baikal, photobleached epilimnion",
+    "source_doi": "10.1016/j.apgeochem.2018.06.002",
+    "seed": 206
+  },
+  {
+    "id": "eem-baikal-lignin-01",
+    "name": "Baikal Lignin Impact 01 — EEM",
+    "modality": "EEM",
+    "sample_type": "sludge_lignin",
+    "origin": "Littoral discharge zone, elevated fluorophores A and C",
+    "source_doi": "10.1016/j.envpol.2020.114782",
+    "seed": 207
+  },
+  {
+    "id": "eem-baikal-lignin-02",
+    "name": "Baikal Lignin Impact 02 — EEM",
+    "modality": "EEM",
+    "sample_type": "sludge_lignin",
+    "origin": "Accumulation zone near former pulp mill discharge pipe",
+    "source_doi": "10.1016/j.envpol.2020.114782",
+    "seed": 208
+  },
+  {
+    "id": "eem-synth-humic-like",
+    "name": "Synthetic Humic-like Component (Peaks A+C)",
+    "modality": "EEM",
+    "sample_type": "humic_acid",
+    "origin": "OpenFluor PARAFAC Component Simulation",
+    "source_doi": "10.1002/lom3.10055",
+    "seed": 209
+  },
+  {
+    "id": "eem-synth-protein-like",
+    "name": "Synthetic Protein-like Component (Peaks T+B)",
+    "modality": "EEM",
+    "sample_type": "protein",
+    "origin": "Tryptophan / Tyrosine dominated microbial fluorophore",
+    "source_doi": "10.1002/lom3.10055",
+    "seed": 210
+  },
+  {
+    "id": "eem-freshwater-algal",
+    "name": "Freshwater Algal Exudate (Microcystis bloom)",
+    "modality": "EEM",
+    "sample_type": "lake_dom",
+    "origin": "Eutrophic reservoir surface bloom DOM",
+    "source_doi": "10.1016/j.watres.2015.08.012",
+    "seed": 211
+  },
+  {
+    "id": "eem-soil-leachate",
+    "name": "Forest Soil Leachate (Pine O-horizon)",
+    "modality": "EEM",
+    "sample_type": "nom",
+    "origin": "Taiga podzol lysimeter drainage water",
+    "source_doi": "10.1016/j.soilbio.2011.02.019",
+    "seed": 212
+  },
+  {
+    "id": "eem-wastewater-effluent",
+    "name": "Municipal Secondary Wastewater Effluent",
+    "modality": "EEM",
+    "sample_type": "sludge_lignin",
+    "origin": "Activated sludge biological treatment effluent",
+    "source_doi": "10.1016/j.watres.2013.12.008",
+    "seed": 213
+  },
+  {
+    "id": "eem-groundwater-fulvic",
+    "name": "Deep Artesian Groundwater Fulvic Component",
+    "modality": "EEM",
+    "sample_type": "fulvic_acid",
+    "origin": "Confined aquifer DOM, low freshness, high FI",
+    "source_doi": "10.1016/j.hydro.2017.04.011",
+    "seed": 214
+  },
+  {
+    "id": "eem-synth-marine-dom",
+    "name": "Synthetic Marine DOM Component (Peak M)",
+    "modality": "EEM",
+    "sample_type": "lake_dom",
+    "origin": "Coble Peak M autochthonous fluorescent model",
+    "source_doi": "10.1016/0304-4203(96)00014-9",
+    "seed": 215
+  },
+
+  {
+    "id": "ms-baikal-ctrl-full",
+    "name": "Baikal Control Full DOM (FT-ICR MS)",
+    "modality": "FTICR_MS",
+    "sample_type": "lake_dom",
+    "origin": "Lake Baikal pelagic SPE-DOM, 12T SolariX XR, negative ESI",
+    "source_doi": "10.1021/acs.est.8b02345",
+    "seed": 301
+  },
+  {
+    "id": "ms-baikal-ctrl-01",
+    "name": "Baikal Control 01 (Deep Epilimnion)",
+    "modality": "FTICR_MS",
+    "sample_type": "lake_dom",
+    "origin": "Lake Baikal, 20m depth, pristine natural DOM",
+    "source_doi": "10.1021/acs.est.8b02345",
+    "seed": 302
+  },
+  {
+    "id": "ms-baikal-ctrl-02",
+    "name": "Baikal Control 02 (Hypolimnion)",
+    "modality": "FTICR_MS",
+    "sample_type": "lake_dom",
+    "origin": "Lake Baikal, 1200m depth, ancient refrozen water mass",
+    "source_doi": "10.1021/acs.est.8b02345",
+    "seed": 303
+  },
+  {
+    "id": "ms-baikal-lignin-full",
+    "name": "Baikal Lignin Impact Full Sludge DOM",
+    "modality": "FTICR_MS",
+    "sample_type": "sludge_lignin",
+    "origin": "High aromatic sulfur/oxygen compounds near pulp mill",
+    "source_doi": "10.1016/j.envpol.2020.114782",
+    "seed": 304
+  },
+  {
+    "id": "ms-baikal-lignin-01",
+    "name": "Baikal Lignin Impact 01 (Littoral Porewater)",
+    "modality": "FTICR_MS",
+    "sample_type": "sludge_lignin",
+    "origin": "Sulfonated lignin breakdown products, high Mw",
+    "source_doi": "10.1016/j.envpol.2020.114782",
+    "seed": 305
+  },
+  {
+    "id": "ms-baikal-lignin-02",
+    "name": "Baikal Lignin Impact 02 (Sediment Core)",
+    "modality": "FTICR_MS",
+    "sample_type": "sludge_lignin",
+    "origin": "Subsurface degraded industrial lignin plume",
+    "source_doi": "10.1016/j.envpol.2020.114782",
+    "seed": 306
+  },
+  {
+    "id": "ms-ihss-srfa",
+    "name": "Suwannee River Fulvic Acid FT-ICR MS",
+    "modality": "FTICR_MS",
+    "sample_type": "fulvic_acid",
+    "origin": "IHSS Reference 2S101F, high O/C ratio, ~350 Da peak",
+    "source_doi": "10.1021/es051614n",
+    "seed": 307
+  },
+  {
+    "id": "ms-ihss-srha",
+    "name": "Suwannee River Humic Acid FT-ICR MS",
+    "modality": "FTICR_MS",
+    "sample_type": "humic_acid",
+    "origin": "IHSS Reference 2S101H, condensed aromatic tannins",
+    "source_doi": "10.1021/es051614n",
+    "seed": 308
+  },
+  {
+    "id": "ms-ihss-ppha",
+    "name": "Pahokee Peat Humic Acid FT-ICR MS",
+    "modality": "FTICR_MS",
+    "sample_type": "humic_acid",
+    "origin": "IHSS Reference 1S103H, highly aromatic soil isolate",
+    "source_doi": "10.1016/j.orggeochem.2008.01.009",
+    "seed": 309
+  },
+  {
+    "id": "ms-ihss-esha",
+    "name": "Elliott Soil Humic Acid FT-ICR MS",
+    "modality": "FTICR_MS",
+    "sample_type": "humic_acid",
+    "origin": "IHSS Reference 4S102H, prairie soil humic acids",
+    "source_doi": "10.1016/j.orggeochem.2008.01.009",
+    "seed": 310
+  },
+  {
+    "id": "ms-synth-fulvic-core",
+    "name": "Synthetic Fulvic Core DOM (C15-C25 CHNO)",
+    "modality": "FTICR_MS",
+    "sample_type": "fulvic_acid",
+    "origin": "Kendrick series mass defects model for aquatic FA",
+    "source_doi": "10.1021/acs.analchem.7b04567",
+    "seed": 311
+  },
+  {
+    "id": "ms-synth-humic-core",
+    "name": "Synthetic Humic Core DOM (Condensed Polyphenyls)",
+    "modality": "FTICR_MS",
+    "sample_type": "humic_acid",
+    "origin": "High AI_mod aromatic series simulation",
+    "source_doi": "10.1021/acs.analchem.7b04567",
+    "seed": 312
+  },
+  {
+    "id": "ms-synth-lignin-impact",
+    "name": "Synthetic Lignin Impacted DOM (CHOS Series)",
+    "modality": "FTICR_MS",
+    "sample_type": "sludge_lignin",
+    "origin": "Lignosulfonate degradation homologues model",
+    "source_doi": "10.1016/j.envpol.2019.05.088",
+    "seed": 313
+  },
+  {
+    "id": "ms-synth-freshwater",
+    "name": "Synthetic Oligotrophic Lake DOM",
+    "modality": "FTICR_MS",
+    "sample_type": "lake_dom",
+    "origin": "Boreal humic lake mass profile",
+    "source_doi": "10.1021/acs.est.6b01452",
+    "seed": 314
+  },
+  {
+    "id": "ms-synth-marine-dom",
+    "name": "Synthetic Deep Marine Dissolved Organics",
+    "modality": "FTICR_MS",
+    "sample_type": "nom",
+    "origin": "Carboxyl-rich alicyclic molecules (CRAM) simulation",
+    "source_doi": "10.1038/ismej.2012.144",
+    "seed": 315
+  }
+]
