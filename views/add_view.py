@@ -7,6 +7,7 @@ import pandas as pd
 from core.models import ModalityEnum
 from core.ingest import ingest_file
 from db.database import insert_spectrum, get_all_spectra, get_modality_counts
+from scripts.fetch_real_spectra import run_full_spectra_enrichment
 
 
 ROOT_DIR = Path(__file__).resolve().parent.parent
@@ -21,6 +22,30 @@ def render_add_page():
         "Спектр пройдет автоматическую каноническую нормализацию, расчет хемометрических индексов "
         "и будет мгновенно проиндексирован в оперативной памяти (RAM) для последующего векторного поиска."
     )
+
+    with st.expander("🌐 Автоматическое пополнение из открытых научных источников (NIST, OpenFluor, WHONDRS)", expanded=False):
+        st.markdown(
+            "Нажмите кнопку ниже, чтобы автоматически выкачать сертифицированные ИК-спектры мономеров лигнина и гуминовых веществ "
+            "из **NIST Chemistry WebBook** (в формате IUPAC JCAMP-DX), флуоресцентные компоненты **OpenFluor** "
+            "и ультравысокоразрешающие пик-листы FT-ICR MS."
+        )
+        if st.button("🚀 Запустить автопополнение базы из NIST & OpenFluor"):
+            with st.spinner("Загрузка и индексация эталонов..."):
+                run_full_spectra_enrichment()
+                # Reload application state
+                db_conn = st.session_state.get("db_conn")
+                if db_conn:
+                    st.session_state["library_meta"] = get_all_spectra(db_conn)
+                    st.session_state["modality_counts"] = get_modality_counts(db_conn)
+                if NPZ_PATH.exists():
+                    data = np.load(NPZ_PATH, allow_pickle=True)
+                    st.session_state["ftir_matrix"] = data["ftir_matrix"]
+                    st.session_state["ftir_ids"] = list(data["ftir_ids"])
+                    st.session_state["eem_matrix"] = data["eem_matrix"]
+                    st.session_state["eem_ids"] = list(data["eem_ids"])
+                    st.session_state["fticr_matrix"] = data["fticr_matrix"]
+                    st.session_state["fticr_ids"] = list(data["fticr_ids"])
+                st.success("🎉 База успешно обогащена и переиндексирована в памяти!")
 
     with st.form("add_spectrum_form"):
         col1, col2 = st.columns(2)
